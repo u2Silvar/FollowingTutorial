@@ -1,0 +1,21 @@
+{
+    "name": "u2's Framework",
+    "description":"Tutorial purpose",
+    "keywords":["u2","Silvar"],
+    "License":"u2",
+    "authors":[
+        {
+            "name":"Hanlin Wu",
+            "email":"hanlin7890@gmail.com",
+            "role":"Creator / Developer"
+        }
+    ],
+    "require":{
+        "php":">=7.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Example\\":"src/"
+        }
+    }
+}
